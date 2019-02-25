@@ -1,1 +1,19 @@
-%h Voila!
+#banner
+	.banner_content
+		%h1 File Cabinet
+		%p Your life's work. Organized, always.
+		%button= link_to "Enter", new_user_registration_path
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Organize
+				%p Please reach out 123-456-789 for any questions! Happy to serve!
+
+
+#button_cta
+	.wrapper
+		%h2 Go Ahead!
+		%br
+		%button= link_to "Join Now", new_user_registration_path
